@@ -1,0 +1,118 @@
+{
+  "profile": {
+    "id": "s9df8ske-23n23490s8-12nkk123o",
+    "firstName": "Ann",
+    "lastName": "Smith",
+    "jobTitle": "Content Artist",
+    "companyName": "ABC Advertising Co.",
+    "pinnedPost": {
+      "authorFirstName": "Jamie",
+      "authorLastName": "Cowhan",
+      "jobTitle": "Content Artist",
+      "companyName": "ABC Advertising Co.",
+      "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
+      "publishDate": "2021-07-29T03:24:00",
+      "city": "Dallas",
+      "state": "TX"
+    },
+    "groups": [
+      {
+        "id": "group-a",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "active"
+      },
+      {
+        "id": "group-b",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "moderate"
+      },
+      {
+        "id": "group-c",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "inactive"
+      },
+      {
+        "id": "group-d",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "low"
+      },
+      {
+        "id": "group-e",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "moderate"
+      },
+      {
+        "id": "group-f",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "active"
+      },
+      {
+        "id": "group-g",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "low"
+      },
+      {
+        "id": "group-h",
+        "name": "Group Name",
+        "href": "https://www.google.com",
+        "activity": "active"
+      }
+    ]
+  },
+
+  "friends": [
+    {
+      "id": "s9df8ske-23n23490s8-12nkk123o",
+      "friends": [
+        {
+          "name": "Stuart Raymond",
+          "jobTitle": "Product Designer",
+          "companyName": "Facebook",
+          "topFriend": true
+        },
+        {
+          "name": "Jamie Cowhan",
+          "jobTitle": "Senior Designer",
+          "companyName": "Facebook"
+        },
+        {
+          "name": "Cain Kim",
+          "jobTitle": "Product Designer",
+          "companyName": "LinkedIn"
+        },
+        {
+          "name": "Tiffany Squires",
+          "jobTitle": "UX Designer",
+          "companyName": "Chip Consulting"
+        },
+        {
+          "name": "Paige Diaz",
+          "jobTitle": "Art Director",
+          "companyName": "Agency4"
+        },
+        {
+          "name": "Aleah Emmonds",
+          "jobTitle": "Product Designer",
+          "companyName": "Liberty"
+        },
+        {
+          "name": "Huda Dunkley",
+          "jobTitle": "Architect",
+          "companyName": "Epic"
+        },
+        {
+          "name": "Aden Gray",
+          "jobTitle": "Game Designer",
+          "companyName": "Voltron"
+        }
+      ]
+    }
+  ]
+}
