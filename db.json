@@ -15,54 +15,84 @@
       "city": "Dallas",
       "state": "TX"
     },
+    "pinnedPosts": [
+      {
+        "authorFirstName": "Jamie",
+        "authorLastName": "Cowhan",
+        "jobTitle": "Content Artist",
+        "companyName": "ABC Advertising Co.",
+        "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
+        "publishDate": "2021-07-29T03:24:00",
+        "city": "Dallas",
+        "state": "TX"
+      },
+      {
+        "authorFirstName": "Stuart",
+        "authorLastName": "Raymond",
+        "jobTitle": "Product Designer",
+        "companyName": "Facebook",
+        "post": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem hendrerit.",
+        "publishDate": "2021-06-21T03:24:00",
+        "city": "Houston",
+        "state": "TX"
+      }
+    ],
     "groups": [
       {
         "id": "group-a",
         "name": "Group Name",
         "href": "https://www.google.com",
-        "activity": "active"
+        "activity": "active",
+        "favorite": false
       },
       {
         "id": "group-b",
         "name": "Group Name",
         "href": "https://www.google.com",
-        "activity": "moderate"
+        "activity": "moderate",
+        "favorite": false
       },
       {
         "id": "group-c",
         "name": "Group Name",
         "href": "https://www.google.com",
-        "activity": "inactive"
+        "activity": "inactive",
+        "favorite": false
       },
       {
         "id": "group-d",
         "name": "Group Name",
         "href": "https://www.google.com",
-        "activity": "low"
+        "activity": "low",
+        "favorite": true
       },
       {
         "id": "group-e",
         "name": "Group Name",
         "href": "https://www.google.com",
-        "activity": "moderate"
+        "activity": "moderate",
+        "favorite": false
       },
       {
         "id": "group-f",
         "name": "Group Name",
         "href": "https://www.google.com",
-        "activity": "active"
+        "activity": "active",
+        "favorite": false
       },
       {
         "id": "group-g",
         "name": "Group Name",
         "href": "https://www.google.com",
-        "activity": "low"
+        "activity": "low",
+        "favorite": true
       },
       {
         "id": "group-h",
         "name": "Group Name",
         "href": "https://www.google.com",
-        "activity": "active"
+        "activity": "active",
+        "favorite": false
       }
     ]
   },
@@ -95,7 +125,8 @@
         {
           "name": "Paige Diaz",
           "jobTitle": "Art Director",
-          "companyName": "Agency4"
+          "companyName": "Agency4",
+          "topFriend": true
         },
         {
           "name": "Aleah Emmonds",

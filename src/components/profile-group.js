@@ -23,10 +23,6 @@ const generateCardNode = (data) => {
   titleNode.innerHTML = `${name}`;
   referenceNode.href = href;
 
-  if (activity !== activityStates.inactive) {
-    // TODO: Set the color of the card to the correct color (see User Story 2-111)
-  }
-
   return clone;
 };
 
