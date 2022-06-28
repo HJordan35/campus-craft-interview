@@ -142,6 +142,48 @@
           "name": "Aden Gray",
           "jobTitle": "Game Designer",
           "companyName": "Voltron"
+        },
+        {
+          "name": "Joey Moreno",
+          "jobTitle": "Product Designer",
+          "companyName": "Facebook",
+          "topFriend": true
+        },
+        {
+          "name": "Darell Gentry",
+          "jobTitle": "Senior Designer",
+          "companyName": "Facebook"
+        },
+        {
+          "name": "Kellie Church",
+          "jobTitle": "Product Designer",
+          "companyName": "LinkedIn"
+        },
+        {
+          "name": "Amparo Crosby",
+          "jobTitle": "UX Designer",
+          "companyName": "Chip Consulting"
+        },
+        {
+          "name": "Terrance Robles",
+          "jobTitle": "Art Director",
+          "companyName": "Agency4",
+          "topFriend": true
+        },
+        {
+          "name": "Dudley Mcgee",
+          "jobTitle": "Product Designer",
+          "companyName": "Liberty"
+        },
+        {
+          "name": "Jack Orr",
+          "jobTitle": "Architect",
+          "companyName": "Epic"
+        },
+        {
+          "name": "Heather Li",
+          "jobTitle": "Game Designer",
+          "companyName": "Voltron"
         }
       ]
     }

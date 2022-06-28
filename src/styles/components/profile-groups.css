@@ -33,31 +33,38 @@
 div.profile-group-results-card {
     position: relative;
     overflow: hidden;
-    padding-top: 36px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0;
     width: 100%;
     max-width: 200px;
 }
 
 .profile-group-results-card::after {
-   content: '';
-   width: 100%;
-   height: 16px;
-   background-color: var(--grayscale_2);
-   position: absolute;
-   top: 0;
-   left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--grayscale_1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }   
 
 .profile-group-avatar {
     display: inline-block;
-    border-radius: 50%;
-    overflow: hidden;
-    height: 104px;
-    width: 104px;
+    height: 190px;
+    width: 100%;
+}
+
+.profile-group-avatar + p {
+  padding-top: 16px;
+}
+
+.profile-group-avatar + p + a {
+  padding-bottom: 16px;
 }
 
 .profile-group-avatar img {
