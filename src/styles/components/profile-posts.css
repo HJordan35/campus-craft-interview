@@ -2,6 +2,10 @@
   margin-top: 50px;
 }
 
+#profile-posts .content-card {
+  background-color: var(--grayscale_1);
+}
+
 .profile-post-results {
   margin-top: 24px;
 }
