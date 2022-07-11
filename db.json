@@ -40,56 +40,64 @@
     "groups": [
       {
         "id": "group-a",
-        "name": "Group Name",
+        "name": "Dallas",
+        "image": "https://images.unsplash.com/photo-1580536793208-117fdb20ffc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3270&q=80",
         "href": "https://www.google.com",
         "activity": "active",
         "favorite": false
       },
       {
         "id": "group-b",
-        "name": "Group Name",
+        "name": "Houston",
+        "image": "https://images.unsplash.com/photo-1510623425998-4894a2ad0da9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80",
         "href": "https://www.google.com",
         "activity": "moderate",
         "favorite": false
       },
       {
         "id": "group-c",
-        "name": "Group Name",
+        "name": "Chicago",
+        "image": "https://images.unsplash.com/photo-1597933534024-debb6104af15?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "href": "https://www.google.com",
         "activity": "inactive",
         "favorite": false
       },
       {
         "id": "group-d",
-        "name": "Group Name",
+        "name": "Denver",
+        "image": "https://images.unsplash.com/photo-1617246405400-462cb1ab98ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=999&q=80",
         "href": "https://www.google.com",
         "activity": "low",
         "favorite": true
       },
       {
         "id": "group-e",
-        "name": "Group Name",
+        "name": "New York",
+        "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "href": "https://www.google.com",
         "activity": "moderate",
         "favorite": false
       },
       {
         "id": "group-f",
-        "name": "Group Name",
+        "name": "Los Angeles",
+        "image": "https://images.unsplash.com/photo-1563503136947-cc262fa1e423?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "href": "https://www.google.com",
         "activity": "active",
         "favorite": false
       },
       {
         "id": "group-g",
-        "name": "Group Name",
+        "name": "San Francisco",
+        "image": "https://images.unsplash.com/photo-1504912490605-888b88cd7b94?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1064&q=80",
         "href": "https://www.google.com",
         "activity": "low",
         "favorite": true
       },
       {
         "id": "group-h",
-        "name": "Group Name",
+        "name": "Seattle",
+        "image": "https://images.unsplash.com/photo-1535581652167-3a26c90bbf86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
         "href": "https://www.google.com",
         "activity": "active",
         "favorite": false

@@ -67,7 +67,6 @@
                 </div>
               </div>
               <div class="post-content skeleton-block loading"></div>
-              <div class="skeleton-block skeleton-block--quarter loading"></div>
             </div>
           </div>
         </section>
@@ -76,30 +75,26 @@
           <h2 class="page-heading-2">Your Groups</h2>
           <ul class="profile-group-results fade-in">
             <li class="profile-group-results-item">
-              <div class="profile-group-results-card content-card">
-                <div class="post-author-avatar loading"></div>
-                <div class="skeleton-block loading"></div>
-                <div class="skeleton-block loading"></div>
-              </div>
-            </li>
-            <li class="profile-group-results-item">
-              <div class="profile-group-results-card content-card">
-                <div class="post-author-avatar loading"></div>
-                <div class="skeleton-block loading"></div>
+              <div class="profile-group-results-card content-card skeleton-card">
+                <div class="skeleton-img loading"></div>
                 <div class="skeleton-block loading"></div>
               </div>
             </li>
             <li class="profile-group-results-item">
-              <div class="profile-group-results-card content-card">
-                <div class="post-author-avatar loading"></div>
-                <div class="skeleton-block loading"></div>
+              <div class="profile-group-results-card content-card skeleton-card">
+                <div class="skeleton-img loading"></div>
                 <div class="skeleton-block loading"></div>
               </div>
             </li>
             <li class="profile-group-results-item">
-              <div class="profile-group-results-card content-card">
-                <div class="post-author-avatar loading"></div>
+              <div class="profile-group-results-card content-card skeleton-card">
+                <div class="skeleton-img loading"></div>
                 <div class="skeleton-block loading"></div>
+              </div>
+            </li>
+            <li class="profile-group-results-item">
+              <div class="profile-group-results-card content-card skeleton-card">
+                <div class="skeleton-img loading"></div>
                 <div class="skeleton-block loading"></div>
               </div>
             </li>
@@ -157,13 +152,14 @@
   <!-- Template | Used to generate group cards -->
   <template id="profile-group-results-item-template">
     <li class="profile-group-results-item">
-      <div class="profile-group-results-card content-card fade-in">
+      <a class="profile-group-results-card content-card fade-in">
         <div class="profile-group-avatar">
           <img />
         </div>
-        <p class="page-paragraph">Group Name</p>
-        <a class="page-paragraph">View Group</a>
-      </div>
+        <div class="profile-group-content">
+          <p class="page-paragraph">Group Name</p>
+        </div>
+      </a>
     </li>
   </template>
 
@@ -185,11 +181,11 @@
       <div class="post-author fade-in">
         <div class="post-author-avatar fade-in"></div>
         <div class="post-author-info fade-in">
-          <p class="page-paragraph">Jamie Cowhan</p>
-          <p class="page-micro">Senior Designer @ Facebook</p>
+          <p class="page-paragraph">Template Name</p>
+          <p class="page-micro">Template @ Template</p>
         </div>
       </div>
-      <p class="page-paragraph post-content fade-in">
+      <p class="page-body post-content fade-in">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Augue porttitor
         est arcu elit feugiat. Odio in auctor magna mattis tellus. Sit ornare
         tincidunt id purus pulvinar fusce libero. Justo, habitasse viverra sem
