@@ -31,14 +31,21 @@
   display: none;
 }
 
+.profile-list-item .top-friend-flag + .page-paragraph {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+
 .profile-list-item-avatar {
   display: inline-block;
   background-color: var(--grayscale_2);
   border-radius: 50%;
   overflow: hidden;
-  height: 60px;
-  width: 60px;
-  min-width: 60px;
+  height: 90px;
+  width: 90px;
+  min-width: 90px;
 }
 
 .profile-list-item-avatar img {
