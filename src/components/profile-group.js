@@ -13,15 +13,19 @@ const activityStates = {
  * @return {Node} generated markup for a card
  */
 const generateCardNode = (data) => {
-  const { name, href, activity } = data;
+  const { name, href, image } = data;
   const templateId = "profile-group-results-item-template";
   const resultCardTemplate = document.getElementById(templateId);
   const clone = document.importNode(resultCardTemplate.content, true);
   const titleNode = clone.querySelector("p.page-paragraph");
-  const referenceNode = clone.querySelector("a.page-paragraph");
+  const referenceNode = clone.querySelector("a.profile-group-results-card");
+  const groupImageNode = clone.querySelector(
+    "a.profile-group-results-card img"
+  );
 
   titleNode.innerHTML = `${name}`;
   referenceNode.href = href;
+  groupImageNode.src = image;
 
   return clone;
 };

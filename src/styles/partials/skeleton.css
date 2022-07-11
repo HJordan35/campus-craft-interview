@@ -1,16 +1,19 @@
 .skeleton-block {
   min-height: 20px;
   width: 100%;
+  border-radius: 20px;
 }
 
 .skeleton-block--half {
   min-height: 24px;
   width: 50%;
+  border-radius: 20px;
 }
 
 .skeleton-block--quarter {
   min-height: 24px;
   width: 25%;
+  border-radius: 20px;
 }
 
 .loading {
