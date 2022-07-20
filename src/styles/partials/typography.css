@@ -5,15 +5,19 @@
 }
 
 .page-heading-2 {
-    font-size: 24px;
+    font-size: 32px;
     font-weight: 600;
-    line-height: 33px;
+    line-height: 40px;
 } 
 
 .page-paragraph {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+}
+
+.page-paragraph--smoke {
+    color: var(--deepSmoke);
 }
 
 .page-body {
@@ -31,5 +35,6 @@
 .page-micro {
     font-size: 14px;
     font-weight: 400;
-    line-height: 16px;     
+    line-height: 16px;   
+    color: var(--deepSmoke);  
 }
